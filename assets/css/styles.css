@@ -197,10 +197,26 @@ a{
 
 .clients .images{
     display: flex;
-    margin-top: 96px;
+    margin-top: 70px;
     margin-bottom: 23px;
     justify-content:space-between;
     align-items: center;
+}
+
+.clients .images a{
+    padding: 0 42px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    border-radius: 12px;
+    background: #FFF;
+    
+
+}
+/* Hover effect: nâng nhẹ và đổ thêm bóng */
+.clients .images a:hover {
+    transform: translateY(-6px); /* nổi lên */
+    box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.20); /* bóng đậm hơn */
 }
 /*guides*/
 .guides{
