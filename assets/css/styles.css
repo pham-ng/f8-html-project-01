@@ -769,12 +769,17 @@ a{
     display: flex;
     align-items: center;    
     justify-content: center;
+    background-color: #F9F9F9;
 }
 
+.footer .social-link + .social-link{
+    margin-left:16px;
+}
 .footer .social-link:hover{
     background:#ebebeb;
     border-radius: 3px;
 }
+
 
 .footer .rows-bottom{
     margin-top: 81px;
