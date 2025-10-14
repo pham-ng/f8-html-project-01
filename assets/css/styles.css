@@ -5,10 +5,12 @@
 
 html{
     font-size: 62.5%;
+    scroll-behavior: smooth;
 }
 body{
     font-size: 1.6rem;
     font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
 }
 
 /* COMMON*/
@@ -66,6 +68,7 @@ a{
     height: calc(100vh - 150px);
     position: relative;
     display: flex;
+    justify-content: center;
     flex-direction: column;
 }
 
